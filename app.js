@@ -61,7 +61,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    'mongodb+srv://user1:vhcVhd1c4niqPQhu@cluster0.t9ce2xg.mongodb.net/shop'
+    'mongodb+srv://user1:MgEqvzNhrT8MafJK@cluster0.t9ce2xg.mongodb.net/shop'
   )
   .then(result => {
     const server = app.listen(8080);
